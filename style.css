@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+p{
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+.nav p{
+    font-size: 30px;
+}
+.nav{
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(248, 197, 102);
+}
+
+.links li{
+    padding:10px;
+    display: inline-block;
+}
+
+.hero{
+    width: 100%;
+    height: 400px;
+    background-image: url("hero.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.about{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.img{
+    width: 30%;
+    margin: 10px;
+    font-size: 50%;
+    
+}
+.img img{
+     width: 100%;
+}
+
+
+.box{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1{
+    flex-basis: 20%;
+    margin: 10px;
+}
+ 
+.box1 img{
+    width: 100%;
+}
+
+.des{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(248, 197, 102);
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(248, 197, 102) ;
+
+}
+
+@media screen and (max-width:500px)
+{
+    .img p,h1{
+        width: 100%;
+        margin: 10px;
+        font-size: 100%;
+
+    }
+    .img img{
+         width: 100%;
+    }
+
+    .hero{
+        background-image: url("hero.jpg");
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .links li{
+        padding:9px;
+    }
+    
+    .img{
+        width: 40%;
+    }
+
+    .img p,h1{
+         font-size: 130%;
+    }
+
+    .box1{
+        flex-basis: 30%;
+        margin: 10px;
+    }
+
+    .des{
+        height: 30%;
+    }
+     
+    
+}
